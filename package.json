@@ -1,0 +1,22 @@
+{
+  "name": "minmyanmarnwe",
+  "version": "1.0.0",
+  "description": "Official website of Min Myanmar Nwe Co., Ltd. Minokca chemicals - myanmar concrete admixture",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Minokca",
+    "chemicals",
+    "myanmar",
+    "Min",
+    "myanmar",
+    "nwe",
+    "myanmar",
+    "concrete",
+    "admixture"
+  ],
+  "author": "pyae sone thant",
+  "license": "ISC"
+}
