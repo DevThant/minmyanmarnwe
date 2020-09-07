@@ -18,5 +18,11 @@
     "admixture"
   ],
   "author": "pyae sone thant",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodejs-nodemailer-outlook": "^1.2.3",
+    "nodemailer": "^6.4.11"
+  }
 }
