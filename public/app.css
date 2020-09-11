@@ -24,6 +24,9 @@ body{
         color: #ef3c41!important;
        
     }
+    a h4{
+        color: #4a55a5!important;
+    }
     p{
     font-size: 1rem;
     }
@@ -38,8 +41,17 @@ body{
     font-size: 1.2rem;
     font-weight: 500;
     }
- 
-    h4{
+    
+    h3{
+     font-size: 1.7rem;
+     font-weight: 700;
+     color: #4a55a5!important;
+    }
+     h4{
+         font-size: 1.3rem;
+         letter-spacing: 3px;
+     }
+    .bg-inverse-2 h4{
     font-size: 1.3rem;
     color: #ef3c41;
     }
@@ -49,7 +61,7 @@ body{
     }
     
     .bg-inverse-2{
-    background-color: #14213d;
+    background-color: #2b2d42;
     }
 
     .bg-inverse-2 p, .bg-inverse-2 a{
@@ -201,4 +213,57 @@ body{
     width: 100%;
     height: 400px;
     background-color: grey;
+}
+
+
+
+
+.about-intro{
+        background-image: url(https://scontent.frgn3-1.fna.fbcdn.net/v/t31.0-8/30167472_445888685866191_2423840658131871533_o.jpg?_nc_cat=103&_nc_sid=e3f864&_nc_ohc=pnGDvLV24XUAX8kDbzf&_nc_ht=scontent.frgn3-1.fna&oh=ec1ff9186772b7eb6cdd5f65ca4fe8fa&oe=5F7DB844);
+        background-attachment: local;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+}
+
+
+@media (min-width: 800px){
+.bg-about {
+    background-color: #2b2d42;
+    position: absolute;
+    width: 55vw;
+    height: 600px;
+    margin-left:22.5vw;
+    z-index: 0;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, .4);
+}
+}
+
+
+
+.red{
+    color: #ef3c41!important
+}
+.card-round{
+  transition: ease-in-out;
+  left: 2;
+  color:#ffffff;
+  background: linear-gradient(-45deg, #edf2f4 , #ffffff);
+
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+ 
+  box-shadow: 0 10px 10px rgba(255, 255, 255, .1);
+}
+
+.card-box{
+    width: 550px;
+    height: 300px;
+    
+    padding: 3rem;
+    background-color: #ffffff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .4);
+
 }
